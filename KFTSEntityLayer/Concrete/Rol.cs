@@ -12,5 +12,7 @@ namespace KFTSEntityLayer.Concrete
         [Key]
         public int RolId { get; set; }
         public string RolAdi { get; set; }
+
+        public List<Kullanıcı> Kullanıcıs { get; set; }
     }
 }

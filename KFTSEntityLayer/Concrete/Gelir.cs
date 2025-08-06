@@ -11,6 +11,9 @@ namespace KFTSEntityLayer.Concrete
     {
         [Key]
         public int GelirId { get; set; }
-        public  MyProperty { get; set; }
+        public string GelirMiktar { get; set; }
+        public int TurId { get; set; }
+        public Tur Tur { get; set; }
+
     }
 }

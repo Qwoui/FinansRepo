@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using KFTSEntityLayer.Concrete;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,12 @@ namespace KFTSDataAccessLayer.Concrete
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"server=");
+            optionsBuilder.UseSqlServer(@"server=(localdb)\MSSQLLocalDB; database=KFTSDb; integrated security=true;");
         }
+        public DbSet<Rol> Rols { get; set; }
+        public DbSet<Kullanıcı> Kullanıcıs { get; set; }
+        public DbSet<Gider> Giders { get; set; }
+        public DbSet<Gelir> Gelirs { get; set; }
+        public DbSet<Tur> Turs { get; set; }
     }
 }

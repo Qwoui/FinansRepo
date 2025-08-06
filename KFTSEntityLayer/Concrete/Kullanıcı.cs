@@ -15,6 +15,7 @@ namespace KFTSEntityLayer.Concrete
         public string KullaniciEmail { get; set; }
         public string KullaniciSifre { get; set; }
         public DateTime KullaniciOlusturulmaTarihi { get; set; }
-
+        public int RolId { get; set; }
+        public Rol Rol { get; set; }
     }
 }

@@ -1,0 +1,12 @@
+C:\Users\gokay.yener\source\repos\KFTSEntityLayer\bin\Debug\net8.0\KFTSEntityLayer.deps.json
+C:\Users\gokay.yener\source\repos\KFTSEntityLayer\bin\Debug\net8.0\KFTSEntityLayer.dll
+C:\Users\gokay.yener\source\repos\KFTSEntityLayer\bin\Debug\net8.0\KFTSEntityLayer.pdb
+C:\Users\gokay.yener\source\repos\KFTSEntityLayer\obj\Debug\net8.0\KFTSEntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gokay.yener\source\repos\KFTSEntityLayer\obj\Debug\net8.0\KFTSEntityLayer.AssemblyInfoInputs.cache
+C:\Users\gokay.yener\source\repos\KFTSEntityLayer\obj\Debug\net8.0\KFTSEntityLayer.AssemblyInfo.cs
+C:\Users\gokay.yener\source\repos\KFTSEntityLayer\obj\Debug\net8.0\KFTSEntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\gokay.yener\source\repos\KFTSEntityLayer\obj\Debug\net8.0\KFTSEntityLayer.sourcelink.json
+C:\Users\gokay.yener\source\repos\KFTSEntityLayer\obj\Debug\net8.0\KFTSEntityLayer.dll
+C:\Users\gokay.yener\source\repos\KFTSEntityLayer\obj\Debug\net8.0\refint\KFTSEntityLayer.dll
+C:\Users\gokay.yener\source\repos\KFTSEntityLayer\obj\Debug\net8.0\KFTSEntityLayer.pdb
+C:\Users\gokay.yener\source\repos\KFTSEntityLayer\obj\Debug\net8.0\ref\KFTSEntityLayer.dll

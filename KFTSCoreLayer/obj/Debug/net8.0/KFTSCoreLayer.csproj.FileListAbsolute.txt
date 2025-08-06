@@ -1,0 +1,12 @@
+C:\Users\gokay.yener\source\repos\KFTSCoreLayer\bin\Debug\net8.0\KFTSCoreLayer.deps.json
+C:\Users\gokay.yener\source\repos\KFTSCoreLayer\bin\Debug\net8.0\KFTSCoreLayer.dll
+C:\Users\gokay.yener\source\repos\KFTSCoreLayer\bin\Debug\net8.0\KFTSCoreLayer.pdb
+C:\Users\gokay.yener\source\repos\KFTSCoreLayer\obj\Debug\net8.0\KFTSCoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gokay.yener\source\repos\KFTSCoreLayer\obj\Debug\net8.0\KFTSCoreLayer.AssemblyInfoInputs.cache
+C:\Users\gokay.yener\source\repos\KFTSCoreLayer\obj\Debug\net8.0\KFTSCoreLayer.AssemblyInfo.cs
+C:\Users\gokay.yener\source\repos\KFTSCoreLayer\obj\Debug\net8.0\KFTSCoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\gokay.yener\source\repos\KFTSCoreLayer\obj\Debug\net8.0\KFTSCoreLayer.sourcelink.json
+C:\Users\gokay.yener\source\repos\KFTSCoreLayer\obj\Debug\net8.0\KFTSCoreLayer.dll
+C:\Users\gokay.yener\source\repos\KFTSCoreLayer\obj\Debug\net8.0\refint\KFTSCoreLayer.dll
+C:\Users\gokay.yener\source\repos\KFTSCoreLayer\obj\Debug\net8.0\KFTSCoreLayer.pdb
+C:\Users\gokay.yener\source\repos\KFTSCoreLayer\obj\Debug\net8.0\ref\KFTSCoreLayer.dll
