@@ -1,5 +1,7 @@
 using System.Diagnostics;
 using KFTS.Models;
+using KFTSBussinesLayer.Concrete;
+using KFTSDataAccessLayer.EntityFramework;
 using Microsoft.AspNetCore.Mvc;
 
 namespace KFTS.Controllers
@@ -13,9 +15,13 @@ namespace KFTS.Controllers
             _logger = logger;
         }
 
+
+        RolManager rm = new RolManager(new EfRolRepository());
+
         public IActionResult Profil()
         {
-            return View();
+            var values= rm.RolListAll();
+            return View(values);
         }
         public IActionResult Varliklarim()
         {

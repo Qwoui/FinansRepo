@@ -1,5 +1,10 @@
-﻿@{
+﻿@using KFTSEntityLayer.Concrete;
+@model List<Rol>
+
+
+@{
     ViewData["Header"] = "Profil";
+
 }
 
 <div class="container my-5">
@@ -10,6 +15,7 @@
             <div class="profile-header text-center mb-4">
                 <h3>Gökay Yener</h3>
                 <p><strong>E-posta:</strong> gokay@example.com</p>
+                <p><strong>Rol:</strong> @Model[0].RolAdi </p>
                 <p><strong>Kayıt Tarihi:</strong> 01.08.2024</p>
             </div>
 
