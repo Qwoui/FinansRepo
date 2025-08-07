@@ -9,6 +9,6 @@ namespace KFTSDataAccessLayer.Abstract
 {
     public interface IGiderDal : IGenericDal<Gider>
     {
-        
+        List<Gider> GetGiderWithTypeAndUser(int id);
     }
 }

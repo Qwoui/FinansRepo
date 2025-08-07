@@ -9,6 +9,6 @@ namespace KFTSDataAccessLayer.Abstract
 {
     public interface IGelirDal : IGenericDal<Gelir>
     {
-        
+        List<Gelir> GetGelirWithTypeAndUser(int id);
     }
 }

@@ -9,6 +9,7 @@ namespace KFTSDataAccessLayer.Abstract
 {
     public interface IKullanıcıDal : IGenericDal<Kullanıcı>
     {
-        
+        List<Kullanıcı> GetKullanıcısWithRoles();
+        Kullanıcı GetKullanıcıWithRole(int id);
     }
 }

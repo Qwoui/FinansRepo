@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KFTSBussinesLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1445697b00af14df63886b269e339524d3a667fe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd77cfd5a5728529067d0c301a493fcef180db0f")]
 [assembly: System.Reflection.AssemblyProductAttribute("KFTSBussinesLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KFTSBussinesLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -46,5 +46,15 @@ namespace KFTSBussinesLayer.Concrete
         {
             _kullaniciDal.Update(kullanıcı);
         }
+
+        public List<Kullanıcı> KullanıcıWithRoles()
+        {
+            return _kullaniciDal.GetKullanıcısWithRoles();
+        }
+
+        public Kullanıcı KullanıcıByIdWithRole(int id)
+        {
+            return _kullaniciDal.GetKullanıcıWithRole(id);
+        }
     }
 }

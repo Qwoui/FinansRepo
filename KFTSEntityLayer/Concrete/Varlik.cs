@@ -14,5 +14,6 @@ namespace KFTSEntityLayer.Concrete
         public string VarlikAciklama { get; set; }
         public int TurId { get; set; }
         public Tur Tur { get; set; }
+        public int KullaniciId { get; set; }
     }
 }

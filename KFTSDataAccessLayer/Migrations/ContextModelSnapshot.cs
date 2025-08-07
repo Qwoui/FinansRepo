@@ -34,6 +34,9 @@ namespace KFTSDataAccessLayer.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("KullaniciId")
+                        .HasColumnType("int");
+
                     b.Property<int>("TurId")
                         .HasColumnType("int");
 
@@ -55,6 +58,9 @@ namespace KFTSDataAccessLayer.Migrations
                     b.Property<string>("GiderMiktar")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("KullaniciId")
+                        .HasColumnType("int");
 
                     b.Property<int>("TurId")
                         .HasColumnType("int");
@@ -140,6 +146,9 @@ namespace KFTSDataAccessLayer.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("VarlikId"));
+
+                    b.Property<int>("KullaniciId")
+                        .HasColumnType("int");
 
                     b.Property<int>("TurId")
                         .HasColumnType("int");
