@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KFTSDataAccessLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd77cfd5a5728529067d0c301a493fcef180db0f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+96f14868be35de0f7faaa7e47fc3fab5c10c6e77")]
 [assembly: System.Reflection.AssemblyProductAttribute("KFTSDataAccessLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KFTSDataAccessLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

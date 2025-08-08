@@ -5,10 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KFTSDataAccessLayer.Abstract
+namespace KFTSBussinesLayer.Abstract
 {
-    public interface IVarlikDal : IGenericDal<Varlik>
+    public interface IVarlikService
     {
+        void VarlikAdd(Varlik varlik);
         List<Varlik> GetVarlikWithTurAndKullanici(int id);
     }
 }

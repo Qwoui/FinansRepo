@@ -19,5 +19,6 @@ namespace KFTSDataAccessLayer.Concrete
         public DbSet<Gider> Giders { get; set; }
         public DbSet<Gelir> Gelirs { get; set; }
         public DbSet<Tur> Turs { get; set; }
+        public DbSet<Varlik> Varliks { get; set; }
     }
 }

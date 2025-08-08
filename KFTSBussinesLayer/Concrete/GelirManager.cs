@@ -21,6 +21,21 @@ namespace KFTSBussinesLayer.Concrete
             _gelirdal.Insert(gelir);
         }
 
+        public List<Gelir> GelirByDate1Month()
+        {
+           return _gelirdal.GetGelirByDate1Month();
+        }
+
+        public List<Gelir> GelirByDate1Year()
+        {
+            return _gelirdal.GetGelirByDate1Year();
+        }
+
+        public List<Gelir> GelirByDate6Month()
+        {
+            return _gelirdal.GetGelirByDate6Month();
+        }
+
         public Gelir GelirById(int id)
         {
             return _gelirdal.GetById(id);

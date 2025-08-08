@@ -16,5 +16,6 @@ namespace KFTSEntityLayer.Concrete
         public int TurId { get; set; }
         public Tur Tur { get; set; }
         public int KullaniciId { get; set; }
+        public DateTime GelirGirisTarihi { get; set; }
     }
 }

@@ -1,6 +1,8 @@
 ﻿using KFTSDataAccessLayer.Abstract;
+using KFTSDataAccessLayer.Concrete;
 using KFTSDataAccessLayer.Repositories;
 using KFTSEntityLayer.Concrete;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,5 +13,12 @@ namespace KFTSDataAccessLayer.EntityFramework
 {
     public class EfVarlikRepository : GenericRepository<Varlik>, IVarlikDal
     {
+        public List<Varlik> GetVarlikWithTurAndKullanici(int id)
+        {
+            using (var r = new Context())
+            {
+                return r.Varliks.Include(x=> x.Tur).Where(z=> z.KullaniciId == id).ToList();
+            }
+        }
     }
 }
