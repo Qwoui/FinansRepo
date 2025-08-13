@@ -5,12 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KFTSDataAccessLayer.Abstract
+namespace KFTSBussinesLayer.Abstract
 {
-    public interface ITurDal : IGenericDal<Tur>
+    public interface ITurService
     {
+        List<Tur> GetListAll();
         List<Tur> GetTurForGelir();
-        List<Tur> GetTurForVarlik();
         List<Tur> GetTurForGider();
+        List<Tur> GetTurForVarlık();
     }
 }

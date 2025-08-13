@@ -10,9 +10,9 @@ namespace KFTSDataAccessLayer.Abstract
     public interface IGelirDal : IGenericDal<Gelir>
     {
         List<Gelir> GetGelirWithTypeAndUser(int id);
-        List<Gelir> GetGelirByDate1Month();
-        List<Gelir> GetGelirByDate6Month();
-        List<Gelir> GetGelirByDate1Year();
+        List<Gelir> GetGelirByDate1Month(int id);
+        List<Gelir> GetGelirByDate6Month(int id);
+        List<Gelir> GetGelirByDate1Year(int id);
 
     }
 }

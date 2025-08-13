@@ -15,9 +15,9 @@ namespace KFTSBussinesLayer.Abstract
         List<Gelir> GelirListAll();
         Gelir GelirById(int id);
         List<Gelir> GelirWithTurAndKullanici(int id);
-        List<Gelir> GelirByDate1Month();
-        List<Gelir> GelirByDate6Month();
-        List<Gelir> GelirByDate1Year();
+        List<Gelir> GelirByDate1Month(int id);
+        List<Gelir> GelirByDate6Month(int id);
+        List<Gelir> GelirByDate1Year(int id);
 
     }
 }

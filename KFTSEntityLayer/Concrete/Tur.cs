@@ -12,6 +12,7 @@ namespace KFTSEntityLayer.Concrete
         [Key]
         public int TurId { get; set; }
         public string TurAdi { get; set; }
+        public string TurTipi { get; set; }
         public List<Gider> Giders { get; set; }
         public List<Gelir> Gelirs { get; set; }
         public List<Varlik> Varliks { get; set; }
