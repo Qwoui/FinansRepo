@@ -10,5 +10,6 @@ namespace KFTSDataAccessLayer.Abstract
     public interface IVarlikDal : IGenericDal<Varlik>
     {
         List<Varlik> GetVarlikWithTurAndKullanici(int id);
+        void VarlikDeleteById(int id);
     }
 }

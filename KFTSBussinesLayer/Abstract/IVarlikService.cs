@@ -11,5 +11,8 @@ namespace KFTSBussinesLayer.Abstract
     {
         void VarlikAdd(Varlik varlik);
         List<Varlik> GetVarlikWithTurAndKullanici(int id);
+        List<Varlik> GetAll();
+        void VarlikDelete(Varlik varlik);
+        void VarlikDeleteById(int id);
     }
 }

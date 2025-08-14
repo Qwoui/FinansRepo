@@ -16,6 +16,12 @@ namespace KFTSBussinesLayer.Concrete
         {
             _varlikDal = varlikDal;
         }
+
+        public List<Varlik> GetAll()
+        {
+            return _varlikDal.GetListAll();
+        }
+
         public List<Varlik> GetVarlikWithTurAndKullanici(int id)
         {
             return _varlikDal.GetVarlikWithTurAndKullanici(id);
@@ -24,6 +30,16 @@ namespace KFTSBussinesLayer.Concrete
         public void VarlikAdd(Varlik varlik)
         {
             _varlikDal.Insert(varlik);
+        }
+
+        public void VarlikDelete(Varlik varlik)
+        {
+            _varlikDal.Delete(varlik);
+        }
+
+        public void VarlikDeleteById(int id)
+        {
+            _varlikDal.VarlikDeleteById(id);
         }
     }
 }

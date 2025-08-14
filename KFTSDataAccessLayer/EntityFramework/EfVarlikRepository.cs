@@ -20,5 +20,14 @@ namespace KFTSDataAccessLayer.EntityFramework
                 return r.Varliks.Include(x=> x.Tur).Where(z=> z.KullaniciId == id).ToList();
             }
         }
+        public void VarlikDeleteById(int id)
+        {
+            using (var r = new Context())
+            {
+                var entity = r.Varliks.FirstOrDefault(x => x.VarlikId == id);
+                r.Varliks.Remove(entity);
+            }
+        }
+        
     }
 }

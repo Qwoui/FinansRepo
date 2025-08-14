@@ -12,6 +12,7 @@ namespace KFTSBussinesLayer.ValidationRules
     {
         public GelirValidator() {
             RuleFor(x => x.GelirMiktar).GreaterThanOrEqualTo("0").WithMessage("Gelir Miktarı 0'dan Küçük Olamaz!");
+            RuleFor(x=> x.TurId).GreaterThan(0).WithMessage("Lütfen bir tür seçiniz");
         }
     }
 }

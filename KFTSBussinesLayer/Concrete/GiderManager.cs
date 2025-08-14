@@ -18,7 +18,7 @@ namespace KFTSBussinesLayer.Concrete
         }
         public void GiderAdd(Gider gider)
         {
-            throw new NotImplementedException();
+            _giderDal.Insert(gider);
         }
 
         public Gider GiderById(int id)
