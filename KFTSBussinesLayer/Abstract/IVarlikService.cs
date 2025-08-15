@@ -14,5 +14,6 @@ namespace KFTSBussinesLayer.Abstract
         List<Varlik> GetAll();
         void VarlikDelete(Varlik varlik);
         void VarlikDeleteById(int id);
+        void VarlikUpdate(Varlik varlik);
     }
 }

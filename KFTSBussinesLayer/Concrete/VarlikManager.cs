@@ -41,5 +41,10 @@ namespace KFTSBussinesLayer.Concrete
         {
             _varlikDal.VarlikDeleteById(id);
         }
+
+        public void VarlikUpdate(Varlik varlik)
+        {
+            _varlikDal.Update(varlik);
+        }
     }
 }

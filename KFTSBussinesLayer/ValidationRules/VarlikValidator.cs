@@ -16,7 +16,6 @@ namespace KFTSBussinesLayer.ValidationRules
             RuleFor(x => x.VarlikFiyat).NotEmpty().WithMessage("Bu Alan Boş Bırakılamaz!");
             RuleFor(x => x.VarlikAciklama).NotEmpty().WithMessage("Bu Alan Boş Bırakılamaz!");
             RuleFor(x => x.TurId).GreaterThan(0).WithMessage("Bu Alan Boş Bırakılamaz!");
-
         }
     }
 }
