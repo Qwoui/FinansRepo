@@ -12,6 +12,6 @@ namespace KFTSBussinesLayer.Abstract
         List<Tur> GetListAll();
         List<Tur> GetTurForGelir();
         List<Tur> GetTurForGider();
-        List<Tur> GetTurForVarlık();
+        List<Tur> GetTurForVarlik();
     }
 }

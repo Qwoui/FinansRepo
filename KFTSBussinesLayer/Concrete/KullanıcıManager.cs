@@ -52,7 +52,7 @@ namespace KFTSBussinesLayer.Concrete
             return _kullaniciDal.GetKullanıcısWithRoles();
         }
 
-        public Kullanıcı KullanıcıByIdWithRole(int id)
+        public Kullanıcı KullaniciByIdWithRole(int id)
         {
             return _kullaniciDal.GetKullanıcıWithRole(id);
         }

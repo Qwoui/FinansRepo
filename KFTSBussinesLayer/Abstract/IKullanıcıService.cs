@@ -15,6 +15,6 @@ namespace KFTSBussinesLayer.Abstract
         List<Kullanıcı> KullanıcıListAll();
         Kullanıcı KullanıcıById(int id);
         List<Kullanıcı> KullanıcıWithRoles();
-        Kullanıcı KullanıcıByIdWithRole(int id);
+        Kullanıcı KullaniciByIdWithRole(int id);
     }
 }

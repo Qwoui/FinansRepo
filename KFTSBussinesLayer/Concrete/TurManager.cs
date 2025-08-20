@@ -32,7 +32,7 @@ namespace KFTSBussinesLayer.Concrete
             return _turDal.GetTurForGider();
         }
 
-        public List<Tur> GetTurForVarlık()
+        public List<Tur> GetTurForVarlik()
         {
             return _turDal.GetTurForVarlik();
         }
