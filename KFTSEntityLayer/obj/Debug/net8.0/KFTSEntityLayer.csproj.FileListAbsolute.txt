@@ -10,3 +10,4 @@ C:\Users\gokay.yener\source\repos\KFTSEntityLayer\obj\Debug\net8.0\KFTSEntityLay
 C:\Users\gokay.yener\source\repos\KFTSEntityLayer\obj\Debug\net8.0\refint\KFTSEntityLayer.dll
 C:\Users\gokay.yener\source\repos\KFTSEntityLayer\obj\Debug\net8.0\KFTSEntityLayer.pdb
 C:\Users\gokay.yener\source\repos\KFTSEntityLayer\obj\Debug\net8.0\ref\KFTSEntityLayer.dll
+C:\Users\gokay.yener\source\repos\KFTSEntityLayer\obj\Debug\net8.0\KFTSEntityLayer.csproj.AssemblyReference.cache

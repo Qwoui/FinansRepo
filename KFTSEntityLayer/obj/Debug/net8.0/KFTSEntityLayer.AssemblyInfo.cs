@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KFTSEntityLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f1778c51dd3b52ab4fbf74b45b10eb675eed360")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bdd0a6dfdcedab3722eb32bd5b424b6aa061e5da")]
 [assembly: System.Reflection.AssemblyProductAttribute("KFTSEntityLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KFTSEntityLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
