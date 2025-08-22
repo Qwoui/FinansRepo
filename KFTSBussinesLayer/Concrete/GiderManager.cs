@@ -33,7 +33,7 @@ namespace KFTSBussinesLayer.Concrete
 
         public List<Gider> GiderListAll()
         {
-            throw new NotImplementedException();
+            return _giderDal.GetListAll();
         }
 
         public void GiderUpdate(Gider gider)

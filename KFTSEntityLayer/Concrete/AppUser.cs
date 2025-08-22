@@ -11,6 +11,6 @@ namespace KFTSEntityLayer.Concrete
     public class AppUser : IdentityUser<int>
     {
         public string AdSoyad { get; set; }
-
+        public DateTime KayitTarihi { get; set; }
     }
 }

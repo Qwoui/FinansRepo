@@ -4,6 +4,7 @@ using KFTSDataAccessLayer.Concrete;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace KFTSDataAccessLayer.Migrations
 {
     [DbContext(typeof(Context))]
-    partial class ContextModelSnapshot : ModelSnapshot
+    [Migration("20250822085915_kayitTarihiEkleme")]
+    partial class kayitTarihiEkleme
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -181,38 +184,6 @@ namespace KFTSDataAccessLayer.Migrations
                     b.HasIndex("TurId");
 
                     b.ToTable("Giders");
-                });
-
-            modelBuilder.Entity("KFTSEntityLayer.Concrete.Islemler", b =>
-                {
-                    b.Property<int>("IslemId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IslemId"));
-
-                    b.Property<string>("IslemAciklama")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("IslemMiktar")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("IslemTarihi")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("IslemTuru")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("KullaniciAdiSoyadi")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("IslemId");
-
-                    b.ToTable("Islemlers");
                 });
 
             modelBuilder.Entity("KFTSEntityLayer.Concrete.Kullanıcı", b =>
